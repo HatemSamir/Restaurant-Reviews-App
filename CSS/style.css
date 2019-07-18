@@ -306,6 +306,10 @@ footer a{
     letter-spacing: 1.145px;
 }
 
+h2:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
 .filter-options select{
     width: calc(100% - 1em);
     height: 1.75rem;
@@ -314,6 +318,9 @@ footer a{
     background-color: rgb(255, 255, 255);
     border: none;
     outline: none;
+}
+.filter-options select:focus {
+    outline: -webkit-focus-ring-color auto 5px;
 }
 .restaurant-Cards-Container {
     margin: 0;
